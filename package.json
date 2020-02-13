@@ -1,0 +1,55 @@
+{
+  "name": "node-rabbitmq-sms-email-sender",
+  "version": "0.0.1",
+  "description": "Simple RabbitMQ powered SMS/email service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node server.js worker",
+    "debug": "node-debug server.js",
+    "preinstall": "npm install -g forever nodemon",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.2",
+    "amqplib": "^0.5.5",
+    "babel-plugin-es6-promise": "^1.1.1",
+    "body-parser": "^1.15.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "config": "^1.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mocha": "^7.0.1",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "sinon": "^8.1.1",
+    "twilio": "^3.39.4",
+    "winston": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/grepruby/boiler-plate/nodejs/nodejs-starter-kit"
+  },
+  "keywords": [
+    "sms",
+    "email",
+    "twilio",
+    "sendgrid"
+  ],
+  "author": "Nitin V",
+  "contributors": [
+    "Nitin V <nvdevnv@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": ""
+}
