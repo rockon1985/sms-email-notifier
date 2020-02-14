@@ -1,0 +1,5 @@
+node_modules/
+config/development.js
+config/staging.js
+.env
+client/node_modules/

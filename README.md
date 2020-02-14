@@ -1,6 +1,3 @@
-<<<<<<< 07776f30d88561b776b55cf458265b8dec4c130d
-# node-rabbitmq
-=======
 # Nodejs RabbitMQ SMS/Email Sender
 
 ## About
@@ -35,4 +32,3 @@ To run the app in worker mode, run command:
 ```
 npm run worker
 ```
->>>>>>> Set up back-end code for sms and email services.
