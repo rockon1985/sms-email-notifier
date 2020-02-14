@@ -32,3 +32,14 @@ To run the app in worker mode, run command:
 ```
 npm run worker
 ```
+
+## Running the client-side
+
+To install the dependency, run the command:
+```
+cd client && npm install
+```
+
+To run the React app, simply run command:
+```
+npm start
